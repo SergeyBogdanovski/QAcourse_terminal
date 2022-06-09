@@ -44,19 +44,19 @@ cp lesson_one/theme_one.txt lesson_three/theme_one.txt
 cp lesson_one/theme_two.txt lesson_three/theme_two.txt
 
 15) Найти файл по имени
-find filename
+find . -name theme_one.txt
 
 16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
-
+grep -i hello theme_one.txt
 
 17) вывести несколько первых строк из текстового файла
-head 
+head -15 ../Sergey_Bogdanovski_hw1.txt
 
 18) вывести несколько последних строк из текстового файла
-
+tail -15 ../Sergey_Bogdanovski_hw1.txt
 
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
-
+less ../Sergey_Bogdanovski_hw1.txt
 
 20) вывести дату и время
 date
